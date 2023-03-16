@@ -1,5 +1,3 @@
-import { blue } from "@mui/material/colors";
-import { border, sizeWidth } from "@mui/system";
 import { useState } from "react";
 import classes from "./Modal.module.css";
 
