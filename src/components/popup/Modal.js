@@ -17,7 +17,7 @@ function Modal(props) {
         <h6>{color.name}</h6>
         </div>
         <div>
-          <span>{color.color} </span>
+          <span className={classes.color}>{color.color} </span>
           <input type={"color"} value={color.color} style={{border:'#FFFFFF'}}/>
         </div>
       </div>

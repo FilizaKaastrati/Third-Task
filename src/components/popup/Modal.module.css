@@ -29,6 +29,11 @@
   border: none;
   border-radius: 7px;
 }
+.color{
+  font-size: 10px;
+  align-items: center;
+  margin-top: 5px;
+}
 .btnSave {
   font-size: 10px;
   margin: 10px;
@@ -44,4 +49,88 @@ dt{
 }
 h5{
   color: black;
+}
+@media only screen and (max-width: 768px) {
+  .modal {
+    padding: 1rem 4rem;
+    width: 60%;
+    z-index: 20;
+    position: fixed;
+    left: calc(33% - 10rem);
+    right:calc(40% - 10rem) ;
+  }
+  .colorsList {
+    font-size: 10px;
+  }
+  .color{
+    font-size: 8px;
+
+  }
+}
+@media only screen and (max-width: 425px) {
+  .modal {
+    padding: 1rem 4rem;
+    width: 60%;
+    z-index: 20;
+    position: fixed;
+    left: calc(43% - 10rem);
+    right:calc(40% - 10rem) ;
+  }
+  .colorsList {
+    font-size: 10px;
+  }
+  .color{
+    font-size: 8px;
+
+  }
+}
+@media only screen and (max-width: 375px) {
+  .modal {
+    padding: 1rem 4rem;
+    width: 60%;
+    z-index: 20;
+    position: fixed;
+    left: calc(45% - 10rem);
+    right:calc(45% - 10rem) ;
+  }
+  .colorsList {
+    font-size: 10px;
+  }
+  .color{
+    font-size: 8px;
+
+  }
+}
+@media only screen and (max-width: 320px) {
+  .modal {
+    padding: 1rem 4rem;
+    width:60%;
+    z-index: 10;
+    position: absolute;
+    left: calc(50% - 10rem);
+    right:calc(40% - 10rem) ;
+  }
+  .colorsList {
+    font-size: 10px;
+  }
+  .color{
+    font-size: 8px;
+
+  }
+  .btn {
+    font-size: 6px;
+    margin: 6px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+  }
+  .btnSave {
+    font-size: 6px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color:rgb(32,114,239);
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+  }
 }
